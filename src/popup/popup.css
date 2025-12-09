@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.popup-container {
+  width: 360px;
+  padding: 20px;
+  background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
+  color: #f7f3e7;
+  min-height: 400px;
+}
+
+.popup-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+  text-align: center;
+  color: #d2cab0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Noto Serif JP", "Yu Mincho", YuMincho, "Hiragino Mincho ProN", serif;
+}
+
+.initial-letter {
+  font-size: 1.8em;
+  display: inline-block;
+  vertical-align: -0.1em;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #d2cab0;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  background: #3a3a3a;
+  color: #f7f3e7;
+  border: 1px solid #6e6655;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.form-group select:focus {
+  outline: none;
+  border-color: #8c8269;
+}
+
+.preview {
+  margin: 20px 0;
+  padding: 16px;
+  background: rgba(145, 132, 97, 0.1);
+  border: 1px solid #6e6655;
+  border-radius: 4px;
+}
+
+.preview-label {
+  font-size: 12px;
+  color: #d2cab0;
+  margin-bottom: 8px;
+}
+
+.preview-text {
+  font-size: 16px;
+  font-family: 'Noto Serif JP', 'Yu Mincho', 'YuMincho', serif;
+  letter-spacing: 0.08em;
+  line-height: 1.6;
+}
+
+.placement-button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to bottom, #6e6655 0%, #4a453a 100%);
+  color: #f7f3e7;
+  border: 1px solid #8c8269;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.placement-button:hover {
+  background: linear-gradient(to bottom, #7a7461 0%, #56514a 100%);
+  border-color: #a09580;
+}
+
+.placement-button:active {
+  transform: translateY(1px);
+}
+
+.settings {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #6e6655;
+}
+
+.settings h2 {
+  font-size: 14px;
+  color: #d2cab0;
+  margin: 0 0 12px 0;
+}
+
+.settings label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.settings input[type="checkbox"] {
+  cursor: pointer;
+}

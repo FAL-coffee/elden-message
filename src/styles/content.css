@@ -1,0 +1,9 @@
+#elden-message-root {
+  position: relative;
+  z-index: 999999;
+  pointer-events: none;
+}
+
+#elden-message-root * {
+  pointer-events: auto;
+}
